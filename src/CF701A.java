@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class CF701A {
@@ -14,13 +15,10 @@ public class CF701A {
             data[i][1]=i+1;
             data[i][0]=Integer.parseInt(st.nextToken());
         }
-        Arrays.sort(data,(a, b)-> a[0]-b[0]);
+        Arrays.sort(data, Comparator.comparingInt(a -> a[0]));
         for(int i=0,j=N-1;i<j;++i,--j){
             sb.append(data[i][1]+ " " + data[j][1]).append("\n");
         }
-
-
         System.out.print(new String(sb));
-
     }
 }
