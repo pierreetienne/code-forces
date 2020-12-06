@@ -5,7 +5,7 @@ public class CF1200A {
     public static void main(String[] args) throws Exception {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         for (String ln; (ln = in.readLine()) != null; ) {
-            int N = Integer.parseInt(ln);
+            Integer.parseInt(ln);
             String data = in.readLine();
             boolean[] rooms = new boolean[10];
 

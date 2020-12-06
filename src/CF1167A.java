@@ -8,7 +8,7 @@ public class CF1167A {
         for (String ln; (ln = in.readLine()) != null; ) {
             int T = Integer.parseInt(ln);
             while(T-->0){
-                int N = Integer.parseInt(in.readLine());
+                Integer.parseInt(in.readLine());
                 String s = in.readLine();
                 int index = -1;
                 for(int i=0;i<s.length();++i){
