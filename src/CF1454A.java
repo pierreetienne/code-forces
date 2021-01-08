@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 /**
  *  URL:https://codeforces.com/problemset/problem/1454/A
- *  STATUS:
+ *  STATUS:AC
  */
 public class CF1454A {
     public static void main(String[] args) throws Exception {
