@@ -3,6 +3,11 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+
+/**
+ *  URL:https://codeforces.com/problemset/problem/1399/A
+ *  STATUS:AC
+ */
 public class Main {
 
     public static void main(String[] args) throws Exception {
